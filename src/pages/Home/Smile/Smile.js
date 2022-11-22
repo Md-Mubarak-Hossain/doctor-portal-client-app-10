@@ -4,6 +4,7 @@ import chair from '../../../assets/images/chair.png';
 import { MdOutlineWatchLater } from 'react-icons/md';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { TbPhoneCall } from 'react-icons/tb';
+import Button from '../../../components/Utilities/Button/Button';
 
 const Smile = () => {
     return (
@@ -20,7 +21,7 @@ const Smile = () => {
                         <div className='lg:w-1/2'>
                             <h1 className="text-3xl font-bold lg:w-2/3">Your New Smile Starts Here</h1>
                             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
-                            <button className="btn btn-primary">Get Started</button>
+                            <Button></Button>
                         </div>
                     </div>
                 </div>

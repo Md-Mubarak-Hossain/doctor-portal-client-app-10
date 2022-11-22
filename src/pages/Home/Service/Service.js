@@ -3,10 +3,11 @@ import fluoride from '../../../assets/images/fluoride.png';
 import cavity from '../../../assets/images/cavity.png';
 import whitening from '../../../assets/images/whitening.png';
 import treatment from '../../../assets/images/treatment.png';
+import Button from '../../../components/Utilities/Button/Button';
 const Service = () => {
     return (
-        <>
-            <div className='text-center'>
+        <div className='lg:my-48'>
+            <div className='text-center my-20'>
                 <h2 className='text-lg uppercase text-primary'>Our Services</h2>
                 <h2 className='text-2xl'>Service We Provide</h2>
             </div>
@@ -45,7 +46,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <div className="hero">
+            <div className="hero my-20">
                 <div className="hero-content grid grid-cols-1 lg:grid-cols-2 gap-20 p-10">
                     <div className='lg:ml-5 p-2 lg:p-8'>
                         <img src={treatment} className="rounded-lg" alt='/' />
@@ -53,11 +54,11 @@ const Service = () => {
                     <div className='lg:mr-5'>
                         <h1 className="text-5xl font-bold">Exceptional Dental Care on Your Terms</h1>
                         <p className="py-6 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minima voluptatum numquam, fugit distinctio in delectus totam debitis. Quos non saepe nihil aut tempore fugiat quas harum consectetur atque? Saepe dicta nam, maiores numquam rem natus. Minus quisquam hic illum libero ab quos est, autem quidem quasi ex tenetur doloribus amet perferendis labore quae suscipit doloremque eius esse ullam beatae quaerat? Adipisci aliquam accusamus temporibus!</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <Button></Button>
                     </div>
                 </div>
             </div>
-        </>
+        </div >
     );
 };
 
